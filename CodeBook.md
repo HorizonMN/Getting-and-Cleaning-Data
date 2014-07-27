@@ -121,7 +121,8 @@ dtss_melt <- melt(dt_subset,id="subj")
 dtss_summary = dcast(dtss_melt, subj ~ variable, mean)
 
 ## saving results 
-write.csv(dtss_summary,"C:/Users/Tan/Documents/R/Data/dtss_summary.csv")
-write.csv(dt_subset,"C:/Users/Tan/Documents/R/Data/dt_subset.csv")
+write.table(dtss_summary,"C:/Users/Tan/Documents/R/Data/dtss_summary.txt")
+write.table(dt_subset,"C:/Users/Tan/Documents/R/Data/dt_subset.txt")
+
 
 
