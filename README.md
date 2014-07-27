@@ -24,7 +24,7 @@ Good luck!
 So you will find in this repo the following:
 
 1.  run_analysis.R  -  This is the R script that will retrieve and turn the data into the desirable shape and format as required by the assignment
-2.  dtss_summary.csv -  This is the output data file for the assignment.  It is a tidy data set with the average of each variable for each activity and each subject.
+2.  readme.md -  General information about this repo and how the files work together.
 3.  codebook.md -  This describes the variables, the data, and transformation performed to clean up and prepare the data.
 
 
